@@ -10,7 +10,7 @@ This project is released under the [GPLv3 license](LICENSE). We only allow free 
 
 ## Citing
 
-If you find our code useful, please kindly cite our paper:
+If you find our code useful, please kindly cite the following papers:
 
 ```bibtex
 @inproceedings{han2018flashfusion,
@@ -23,6 +23,18 @@ If you find our code useful, please kindly cite our paper:
   year={2018}
 }
 ```
+```bibtex
+@ARTICLE{8606275,
+  author={Han, Lei and Xu, Lan and Bobkov, Dmytro and Steinbach, Eckehard and Fang, Lu},
+  journal={IEEE Transactions on Robotics}, 
+  title={Real-Time Global Registration for Globally Consistent RGB-D SLAM}, 
+  year={2019},
+  volume={35},
+  number={2},
+  pages={498-508},
+  doi={10.1109/TRO.2018.2882730}}
+```
+
 
 ## Environment setup
 
