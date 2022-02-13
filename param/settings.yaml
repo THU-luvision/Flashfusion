@@ -1,0 +1,33 @@
+%YAML:1.0
+
+max_feature_num: 2000
+# for experiments
+runFrameNum:  10000
+runTestFlag:  0
+runRefFrame:  800
+runNewFrame:  800
+debug_mode:   1
+# trade-off between accuracy and efficiency
+ransac_maximum_iterations:  400
+maximum_keyframe_match_num:       5
+use_fine_search:                  1
+
+
+# should be optimized by algorithm, select the parameters automatically.
+minimum_disparity:        0.1
+reprojection_error_3d_threshold:  0.01
+reprojection_error_2d_threshold:  6
+keyframe_minimum_distance:        4
+remove_outlier_keyframes:         0
+use_icp_registration:             0
+icp_weight:                       0.5
+far_plane_distance:                       3
+
+
+# not sure if it is reasonable
+
+#fixed parameters
+hamming_distance_threshold:       50
+salient_score_threshold:          1.5
+maximum_local_frame_match_num:    10
+save_ply_files:                   0
