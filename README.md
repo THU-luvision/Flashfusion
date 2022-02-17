@@ -52,7 +52,8 @@ make -j
 ```
 
 ### Data preparation
-
+The format of offline dataset follows TUM RGBD Dataset. 
+Example sequences can be downloaded at https://153.35.185.228/opensource_data/FlashFusion/dataset.zip
 Put the dataset at `dataset/`, organized as 
 ```
 dataset
