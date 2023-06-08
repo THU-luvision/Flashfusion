@@ -53,7 +53,7 @@ make -j
 
 ### Data preparation
 The format of offline dataset follows TUM RGBD Dataset. 
-Example sequences can be downloaded at http://153.35.185.228:81/opensource_data/FlashFusion/dataset.zip
+Example sequences can be downloaded at http://221.228.239.253:81/opensource_data/FlashFusion/dataset.zip 
 Put the dataset at `dataset/`, organized as 
 ```
 dataset
